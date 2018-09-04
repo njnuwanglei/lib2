@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Blob">
+      <UniqueIdentifier>{b44eba74-83be-42cd-a595-5a29ef8fb612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tool">
+      <UniqueIdentifier>{bf94bb22-3540-48de-a03e-ae3f44e7db3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Display">
+      <UniqueIdentifier>{3ed71a53-d722-4c94-89e2-06a9e7173efc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Coin">
+      <UniqueIdentifier>{a61ac560-4286-42e8-9c0c-07781a4326f8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nmipLib.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Blob\BlobAnalysis.cpp">
+      <Filter>Blob</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Tool\ToolUtility.cpp">
+      <Filter>Tool</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Display\HDisplay.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Display\HOverlay.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Display\HRoiObject.cpp">
+      <Filter>Display</Filter>
+    </ClCompile>
+    <ClCompile Include="cpp\Coin\FindCoin.cpp">
+      <Filter>Coin</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nmipLib.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nmipDLL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Blob\BlobAnalysis.h">
+      <Filter>Blob</Filter>
+    </ClInclude>
+    <ClInclude Include="include\nmipExport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Tool\ToolUtility.h">
+      <Filter>Tool</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Display\HDisplay.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Display\HOverlay.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Display\HRoiObject.h">
+      <Filter>Display</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Coin\FindCoin.h">
+      <Filter>Coin</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nmipLib.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\nmipLib.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nmipLib.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
