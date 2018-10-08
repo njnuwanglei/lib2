@@ -236,7 +236,6 @@ void CMeasureProDlg::OnBnClickedButtonOff()
 
 }
 
-
 void CMeasureProDlg::OnClose()
 {
 	// TODO: 在此添加消息处理程序代码和/或调用默认值
@@ -247,10 +246,6 @@ void CMeasureProDlg::OnClose()
 
 void CMeasureProDlg::OnBnClickedButton1()
 {
-	HRegion reg;
-    reg.GenRectangle2(500,500,1,100,100);
-	//m_pHOverlay->DrawRegion(reg,m_hRoiLine.GetColor());
-	m_hDisp.Redraw();
 
 }
 

@@ -45,7 +45,7 @@ using namespace HalconCpp;
 // #define HObject Hobject
 
 #include "..\nmipLib\include\nmipDLL.h"
-
+#include "mvdll.h"
 /*#ifdef _DEBUG
 #pragma comment(lib,"..\\x64\\Debug\\nmipLib.lib")
 #else

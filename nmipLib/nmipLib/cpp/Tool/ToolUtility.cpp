@@ -36,14 +36,3 @@ void CToolUtility::ConvertImagePtrToHObject(unsigned char* ucpImageData, int iWi
 	}
 }
 
-void CToolUtility::ConvertHObjectToImagePtr(HObject hoImage, unsigned char* ucpImageData,
-										 int& iWidth, int& iHeight)
-{
-	HTuple width,height,hvType;
-	HTuple hv_Ptr;
-	GetImagePointer1(hoImage,&hv_Ptr,&hvType,&width,&height);
-	iWidth = width[0].I();
-	iHeight = height[0].I();
-
-	ucpImageData = (unsigned char*)hv_Ptr[0].L();
-}
